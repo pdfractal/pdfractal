@@ -1,16 +1,23 @@
-## Hi there 👋
+# 3D Racing Game
 
-<!--
-**pdfractal/pdfractal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+This repository contains a minimal 3D racing game implemented with `pygame` and `PyOpenGL`.
 
-Here are some ideas to get you started:
+## Requirements
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- Python 3.11
+- `pygame`
+- `PyOpenGL`
+
+Install dependencies with:
+
+```bash
+pip install pygame PyOpenGL PyOpenGL_accelerate
+```
+
+## Running the Game
+
+```bash
+python racing_game.py
+```
+
+Use the left and right arrow keys to move the car and avoid incoming obstacles.
